@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -50,4 +51,7 @@ dependencies {
 
     // SplashScreen API 12
     implementation("androidx.core:core-splashscreen:1.0.1")
+
+    //Glide
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }

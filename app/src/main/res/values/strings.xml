@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">DoaDanDzikirApp</string>
     <string name="app_name">Doa &amp; Dzikir App</string>
 
 
@@ -27,7 +26,7 @@
     <string name="content_txt_image_artikel">Image Poster Detail Artikel</string>
 
 
-    <string-array name="arr_img_artikel">
+    <integer-array name="arr_img_artikel">
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>
         <item>@drawable/artikel_1</item>
@@ -36,7 +35,7 @@
         <item>@drawable/bg_artikel</item>
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>
-    </string-array>
+    </integer-array>
 
 
     <string-array name="arr_title_artikel">
@@ -130,7 +129,6 @@
         <item>\"Semoga Allah membalasmu dengan kebaikan.\"</item>
         <item>\"Aku berlindung kepada Allah dari godaan syaitan yang terkutuk.\"</item>
     </string-array>
-
 
 
 </resources>
